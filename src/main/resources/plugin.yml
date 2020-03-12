@@ -1,0 +1,10 @@
+name: RuneCraft
+version: ${project.version}
+main: ikweetgeennamen.runecraft.RuneCraft
+api-version: 1.13
+prefix: RC
+authors: [ikweetgeennamen]
+description: The RuneCraft plugin.
+commands:
+  xp:
+    description: Get current xp from a skill.
