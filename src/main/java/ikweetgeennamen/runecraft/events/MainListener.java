@@ -15,30 +15,6 @@ public class MainListener implements Listener {
 
 
 
-    @EventHandler
-    public void OnMine(BlockBreakEvent e)
-    {
-        Player p = e.getPlayer();
-        PlayerData data = PlayerData.getPlayerData(p);
-
-        e.setCancelled(true);
-
-        switch(e.getBlock().getBlockData().getMaterial())
-        {
-            case COAL_ORE:
-                if (p.getMainHand().equals(Material.DIAMOND_PICKAXE))
-                {
-                    data.addXP(15, Skills.Mining);
-                    p.sendTitle(Utils.chat("&7Mining"),Utils.chat("&a+15xp"),30, 20,30);
-                    p.sendMessage(Utils.chat(Utils.GetPrefix() + "&7You mined some coal ore."));
-                }
-                else
-            {
-                p.sendMessage(Utils.chat(Utils.GetPrefix() + "&cYou need a pickaxe to mine here"));
-            }
-                break;
-        }
-    }
 
 
 }

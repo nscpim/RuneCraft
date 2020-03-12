@@ -29,6 +29,9 @@ if (label.equalsIgnoreCase("xp"))
         {
             case "mining":
                 p.sendMessage((Utils.chat(Utils.GetPrefix() + "You have " +  data.getnewXP(Skills.Mining) + " xp in the " + data.getSkill(Skills.Mining).toString() + " skill.")));
+                break;
+
+
         }
 }
 

@@ -8,3 +8,5 @@ description: The RuneCraft plugin.
 commands:
   xp:
     description: Get current xp from a skill.
+  level:
+    description: set level

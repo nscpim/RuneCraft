@@ -27,9 +27,9 @@ public class PlayerData implements ConfigurationSerializable
 
     private Location location;
 
-    private Integer miningLV = Integer.valueOf(1);
-
     private EnumMap<Skills, Integer> skillXP = new EnumMap<>(Skills.class);
+
+    private EnumMap<Skills, Integer> skillLevel = new EnumMap<>(Skills.class);
 
     public Player getPlayer() {
         return Bukkit.getPlayer(this.uuid);
@@ -40,10 +40,13 @@ public class PlayerData implements ConfigurationSerializable
         updatePlayer();
         playerData.add(this);
         this.cash = Config.MONEYSTARTINGVALUE.getIntVal();
-        this.miningLV = Config.STARTINGLEVEL.getIntVal();
         for (Skills enumSkills: Skills.values())
         {
             skillXP.put(enumSkills, 0);
+        }
+        for (Skills levelSKills: Skills.values())
+        {
+            skillLevel.put(levelSKills, 1);
         }
     }
     public void addToCash(int i) {
@@ -80,19 +83,21 @@ public class PlayerData implements ConfigurationSerializable
         Integer xp = data.skillXP.get(skill);
         return xp;
     }
+    public void SetLevel(int i, Skills skill)
+    {
+        this.skillLevel.put(Skills.Mining, i);
+    }
+
+    public Integer getLevel(Skills skill)
+    {
+      return this.skillLevel.get(skill);
+    }
     public Skills getSkill(Skills skill)
     {
         return skill;
     }
-    public Integer GetMiningLV()
-    {
-        return this.miningLV;
-    }
-    public Integer CalcLevel()
-    {
-        PlayerData data = this;
-        return data.miningLV;
-    }
+
+
 
     public void subtractXp(int xp) {
         if (this.xp.intValue() - xp >= 0) {
@@ -134,7 +139,7 @@ public class PlayerData implements ConfigurationSerializable
             this.cash = (Integer)map.get("cash");
             this.xp = (Integer)map.get("xp");
             this.skillXP = (EnumMap<Skills, Integer>) map.get("skillxp");
-            this.miningLV = (Integer)map.get("miningLV");
+            this.skillLevel = (EnumMap<Skills, Integer>) map.get("skilllevel");
             this.location = (Location)map.get("location");
             this.inventory = InventorySerializer.fromString((String)map.get("inventory"));
             System.out.println("Successfully loaded playerData of " + getUUID());
@@ -154,8 +159,8 @@ public class PlayerData implements ConfigurationSerializable
         map.put("UUID", this.uuid.toString());
         map.put("cash", this.cash);
         map.put("skillxp", this.skillXP);
+        map.put("skilllevel", this.skillLevel);
         map.put("xp", this.xp);
-        map.put("miningLV", this.miningLV);
         map.put("location", this.location);
         map.put("inventory", InventorySerializer.toString(this.inventory));
         return map;

@@ -1,8 +1,7 @@
 package ikweetgeennamen.runecraft.files;
 
 public enum Config {
-    MONEYSTARTINGVALUE("StartingValue", Integer.valueOf(0)),
-    STARTINGLEVEL("miningLV", Integer.valueOf(1));
+    MONEYSTARTINGVALUE("StartingValue", Integer.valueOf(0)),;
 
     private String location;
 
