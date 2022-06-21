@@ -1,5 +1,6 @@
 package ikweetgeennamen.runecraft;
 
+import ikweetgeennamen.runecraft.commands.ReloadCommand;
 import ikweetgeennamen.runecraft.commands.SetLevelCommand;
 import ikweetgeennamen.runecraft.commands.xpCommand;
 import ikweetgeennamen.runecraft.core.PlayerData;
@@ -36,6 +37,7 @@ public class RuneCraft extends JavaPlugin {
         getServer().getPluginManager().registerEvents(mining, this);
         getCommand("xp").setExecutor(new xpCommand());
         getCommand("level").setExecutor(new SetLevelCommand());
+        getCommand("reload").setExecutor(new ReloadCommand());
 
     }
 

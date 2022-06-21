@@ -57,5 +57,25 @@ public class MiningSkill implements Listener {
                 }
                 break;
         }
+
+
+
+    }
+
+
+    public void MiningOre(Material minedMat, Material requiredPickaxe, Integer skilllevel, PlayerData data, Player p)
+    {
+       if (data.getLevel(Skills.Mining) < skilllevel)
+       {
+            p.sendMessage(Utils.chat(Utils.GetPrefix() + "&cYou do not meet the required level to mine this!"));
+            return;
+       }
+       else
+           {
+
+
+           }
+
+
     }
 }

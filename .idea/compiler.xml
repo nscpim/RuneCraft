@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="RuneCraft" target="1.8" />
+      <module name="RuneCraft" target="18" />
     </bytecodeTargetLevel>
   </component>
 </project>

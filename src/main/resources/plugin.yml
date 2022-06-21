@@ -10,3 +10,5 @@ commands:
     description: Get current xp from a skill.
   level:
     description: set level
+  reload:
+    description: reloads the plugin

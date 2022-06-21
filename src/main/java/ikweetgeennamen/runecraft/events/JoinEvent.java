@@ -21,7 +21,6 @@ public class JoinEvent implements Listener {
         PlayerData data = PlayerData.getPlayerData(p);
         data.updatePlayer();
         FilerSaver.savePlayerData();
-        p.sendMessage("Succes");
     }
 
     @EventHandler

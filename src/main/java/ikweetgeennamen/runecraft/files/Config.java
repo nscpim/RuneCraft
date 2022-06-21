@@ -32,6 +32,10 @@ public enum Config {
                 FileLoader.config.set(lang.getLocation(), lang.getValue());
                 System.out.println("Missing config option '" + lang.getLocation() + "' setting to default option: " + lang.getValue());
             }
+            else
+                {
+                    System.out.println("Your config option "+  lang.getLocation() + " was loaded succesfully: "  +lang.getValue());
+                }
         }
     }
 

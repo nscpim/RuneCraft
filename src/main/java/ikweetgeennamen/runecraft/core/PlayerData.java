@@ -27,9 +27,9 @@ public class PlayerData implements ConfigurationSerializable
 
     private Location location;
 
-    private EnumMap<Skills, Integer> skillXP = new EnumMap<>(Skills.class);
+    private Map<Skills, Integer> skillXP = new HashMap<>();
 
-    private EnumMap<Skills, Integer> skillLevel = new EnumMap<>(Skills.class);
+    private Map<Skills, Integer> skillLevel = new HashMap<>();
 
     public Player getPlayer() {
         return Bukkit.getPlayer(this.uuid);
@@ -138,8 +138,8 @@ public class PlayerData implements ConfigurationSerializable
             this.uuid = UUID.fromString((String) map.get("UUID"));
             this.cash = (Integer)map.get("cash");
             this.xp = (Integer)map.get("xp");
-            this.skillXP = (EnumMap<Skills, Integer>) map.get("skillxp");
-            this.skillLevel = (EnumMap<Skills, Integer>) map.get("skilllevel");
+            this.skillXP = (Map<Skills, Integer>) map.get("skillxp");
+            this.skillLevel = (Map<Skills, Integer>) map.get("skilllevel");
             this.location = (Location)map.get("location");
             this.inventory = InventorySerializer.fromString((String)map.get("inventory"));
             System.out.println("Successfully loaded playerData of " + getUUID());
@@ -157,7 +157,7 @@ public class PlayerData implements ConfigurationSerializable
     public Map<String, Object> serialize() {
         Map<String, Object> map = new HashMap<>();
         map.put("UUID", this.uuid.toString());
-        map.put("cash", this.cash);
+        map.put("money", this.cash);
         map.put("skillxp", this.skillXP);
         map.put("skilllevel", this.skillLevel);
         map.put("xp", this.xp);

@@ -13,10 +13,9 @@
 
     <description>The RuneCraft plugin.</description>
     <properties>
-        <java.version>1.8</java.version>
+        <java.version>18</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
     <build>
         <defaultGoal>clean package</defaultGoal>
         <plugins>
@@ -69,7 +68,7 @@
         <dependency>
             <groupId>com.destroystokyo.paper</groupId>
             <artifactId>paper-api</artifactId>
-            <version>1.15.2-R0.1-SNAPSHOT</version>
+            <version>1.19.0-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>

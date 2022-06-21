@@ -1,7 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3721ee83-a967-454c-941a-4d25cb5398d0" name="Default Changelist" comment="" />
+    <list default="true" id="3721ee83-a967-454c-941a-4d25cb5398d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ikweetgeennamen/runecraft/commands/ReloadCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ikweetgeennamen/runecraft/commands/Skills/PrayerSkills.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ikweetgeennamen/runecraft/items/Dragon_Bone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ikweetgeennamen/runecraft/items/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_destroystokyo_paper_paper_api_1_15_2_R0_1_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_21_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_15_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_7_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_analysis_7_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_commons_7_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_tree_7_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RuneCraft.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RuneCraft.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ikweetgeennamen/runecraft/RuneCraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ikweetgeennamen/runecraft/RuneCraft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ikweetgeennamen/runecraft/core/PlayerData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ikweetgeennamen/runecraft/core/PlayerData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ikweetgeennamen/runecraft/events/ChatEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ikweetgeennamen/runecraft/events/ChatEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ikweetgeennamen/runecraft/events/JoinEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ikweetgeennamen/runecraft/events/JoinEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ikweetgeennamen/runecraft/events/MainListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ikweetgeennamen/runecraft/events/MainListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ikweetgeennamen/runecraft/events/MiningSkill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ikweetgeennamen/runecraft/events/MiningSkill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ikweetgeennamen/runecraft/events/PrayerSkill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ikweetgeennamen/runecraft/events/PrayerSkill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ikweetgeennamen/runecraft/files/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ikweetgeennamen/runecraft/files/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RuneCraft-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/RuneCraft-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ikweetgeennamen/runecraft/RuneCraft.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ikweetgeennamen/runecraft/RuneCraft.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ikweetgeennamen/runecraft/commands/SetLevelCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ikweetgeennamen/runecraft/commands/SetLevelCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ikweetgeennamen/runecraft/commands/xpCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ikweetgeennamen/runecraft/commands/xpCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ikweetgeennamen/runecraft/core/PlayerData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ikweetgeennamen/runecraft/core/PlayerData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ikweetgeennamen/runecraft/events/ChatEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ikweetgeennamen/runecraft/events/ChatEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ikweetgeennamen/runecraft/events/MiningSkill$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ikweetgeennamen/runecraft/events/MiningSkill$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ikweetgeennamen/runecraft/events/MiningSkill.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ikweetgeennamen/runecraft/events/MiningSkill.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ikweetgeennamen/runecraft/files/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ikweetgeennamen/runecraft/files/Config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ikweetgeennamen/runecraft/files/FileManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ikweetgeennamen/runecraft/files/FileManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ikweetgeennamen/runecraft/files/FilerSaver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ikweetgeennamen/runecraft/files/FilerSaver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ikweetgeennamen/runecraft/utils/InventorySerializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ikweetgeennamen/runecraft/utils/InventorySerializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-RuneCraft-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-RuneCraft-1.0-SNAPSHOT.jar" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +89,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -118,120 +169,17 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="679" y="169" key="#RuneCraft-1.0-SNAPSHOT.jar" timestamp="1583155584545">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1655795406686">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="679" y="169" key="#RuneCraft-1.0-SNAPSHOT.jar/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583155584545" />
-    <state x="690" y="276" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1583155356158">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1655795406686" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1655795434039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="276" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583155356158" />
-    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583605320010">
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1655795434039" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1655795094221">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583605320010" />
-    <state x="717" y="324" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583522617779">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="717" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583522617779" />
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1584029810489">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584029810489" />
-    <state x="773" y="380" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584019087000">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="618" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1583974459347" />
-    <state x="773" y="380" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584019087000" />
-    <state x="756" y="380" width="423" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1583617430307">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="756" y="380" width="423" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583617430307" />
-    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583609345752">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583609345752" />
-    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1583605279028">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583605279028" />
-    <state width="1877" height="289" key="GridCell.Tab.0.bottom" timestamp="1584035917748">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1493" height="117" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584017038144" />
-    <state width="1877" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584035917748" />
-    <state width="1877" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583951471604" />
-    <state width="1877" height="289" key="GridCell.Tab.0.center" timestamp="1584035917748">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1493" height="117" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584017038143" />
-    <state width="1877" height="289" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584035917748" />
-    <state width="1877" height="289" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583951471603" />
-    <state width="1877" height="289" key="GridCell.Tab.0.left" timestamp="1584035917748">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1493" height="117" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584017038143" />
-    <state width="1877" height="289" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584035917748" />
-    <state width="1877" height="289" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583951471603" />
-    <state width="1877" height="289" key="GridCell.Tab.0.right" timestamp="1584035917748">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1493" height="117" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584017038143" />
-    <state width="1877" height="289" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584035917748" />
-    <state width="1877" height="289" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583951471603" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1583615962118">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583615962118" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1583615962118">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583615962118" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1583615962118">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583615962118" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1583615962118">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583615962118" />
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1583425197824">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583425197824" />
-    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1583425197824">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583425197824" />
-    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1583425197824">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583425197824" />
-    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1583425197824">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583425197824" />
-    <state x="440" y="95" key="SettingsEditor" timestamp="1584019081348">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="440" y="95" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584019081348" />
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1584027492560">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="525" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584013434598" />
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584027492560" />
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583935723041" />
-    <state x="536" y="257" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1583582360119">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="536" y="257" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583582360119" />
-    <state x="342" y="191" key="new project wizard" timestamp="1583522569674">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="342" y="191" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583522569674" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1584020523324">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584020523324" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1655795094221" />
   </component>
 </project>
